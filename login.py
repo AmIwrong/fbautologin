@@ -23,6 +23,7 @@ def show_usage():
     print("chg  - change master password")
     print("add  - add account to lsdL database")
     print("rm    - remove account from database")
+    
 def browser():
     browser = webdriver.Firefox(executable_path=geckopath)
     return browser
